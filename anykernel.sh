@@ -25,16 +25,3 @@ is_slot_device=auto;
 split_boot;
 flash_boot;
 ## end boot install
-
-# vendor_boot shell variables
-block=vendor_boot;
-is_slot_device=auto;
-
-# reset for vendor_boot patching
-reset_ak;
-
-# vendor_boot install
-split_boot;
-flash_boot;
-## end vendor_boot install
-
